@@ -3,7 +3,10 @@ from pywebio.platform.flask import start_server
 from src.utils.functions import getConfig
 from pywebio.output import *
 from pywebio.input import *
+from pywebio import config
+import os
 
+@config(title = "AutoDataAnalyzer")
 def main():
     """
     Main function to run the application, handle user inputs, and interact with the pipeline.
@@ -51,6 +54,7 @@ def main():
                     ["Query: ", question],
                     ["Response: ", put_html(open(filename, "r").read())]
                 ])
+            os.remove(filename)
 
 if __name__ == "__main__":
     config = getConfig("config.ini")
