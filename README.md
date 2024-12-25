@@ -73,27 +73,6 @@ RauhanAhmed-Auto-Data-Analyzer/
 - **Deployment**: Docker
 - **CI/CD**: GitHub Actions
 
-### Key Components
-
-#### `app.py`
-- Entry point of the application.
-- Hosts the PyWebIO-based interactive interface.
-- Integrates the `CompletePipeline` for data ingestion and query processing.
-
-#### `src/components/queryChainBuilder.py`
-- Builds a LangChain query processing chain.
-- Loads configurations from YAML and INI files.
-- Utilizes `ChatGroq` for natural language processing.
-
-#### `params.yaml`
-- Contains system-level prompts and rules for data handling and visualization generation.
-
-#### `Dockerfile`
-- Defines the container environment for easy deployment.
-
-#### `.github/workflows/ci-cd.yaml`
-- Automates CI/CD processes, including Docker image building and deployment via webhooks.
-
 ---
 
 ## Requirements
