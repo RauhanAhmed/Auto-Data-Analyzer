@@ -8,7 +8,7 @@
 
 - **Interactive Data Analysis**: Upload datasets and metadata, then query for insights.
 - **Automated Visualization**: Generates high-quality, interactive Plotly visualizations.
-- **Custom Query Handling**: Uses advanced LLMs (Llama 3.1-70B) for natural language query processing.
+- **Custom Query Handling**: Uses advanced LLMs (Llama 3.3-70B) for natural language query processing.
 - **Pipeline Integration**: End-to-end processing via LangChain and other robust frameworks.
 - **Dockerized Deployment**: Easy setup with Docker support.
 - **CI/CD Workflow**: Fully automated CI/CD pipeline using GitHub Actions.
@@ -68,7 +68,7 @@ RauhanAhmed-Auto-Data-Analyzer/
 - **Web Framework**: Flask
 - **Interactive Interface**: PyWebIO
 - **Visualization**: Plotly
-- **Large Language Model**: Llama 3.1-70B
+- **Large Language Model**: Llama 3.3-70B
 - **Task Management**: LangChain (including experimental and community modules)
 - **Deployment**: Docker
 - **CI/CD**: GitHub Actions
@@ -111,11 +111,13 @@ RauhanAhmed-Auto-Data-Analyzer/
 
 ## Usage
 
-1. Start the application by running `app.py` or the Docker container.
-2. Upload your CSV files and metadata.
-3. Enter your query in natural language.
-4. View the generated visualization and export as needed.
-5. Type `exit` to terminate the application.
+1. Launch the application by running `app.py` or starting the Docker container.
+2. Upload your CSV files to begin.
+3. Review the automatically generated metadata.
+4. Submit your question using natural language.
+5. View the resulting visualization and export it if needed.
+6. Type `exit` to close the application.
+
 
 ---
 
